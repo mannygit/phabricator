@@ -121,7 +121,7 @@ final class PHUIHomeView
     $results = $engine->executeQuery($query, $pager);
     $view = $engine->renderResults($results, $saved);
 
-    $title = pht('Active Revisions YOLO');
+    $title = pht('Active Revisions');
     $href = '/differential/query/active/';
 
     return $this->buildHomepagePanel($title, $href, $view);
